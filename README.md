@@ -1,6 +1,8 @@
-# Divoora Full-Stack FollowUp Assignment
+# Divoora Full-Stack Follow-Up Assignment
 
 This is **Chivoora**, my submission for the assignment given to me at Divoora for the role of Full-Stack engineer. View the live version here: https://chivoora.web.app/
+
+**Note:** Geographical coordinates (Latitudes and Longitude) in the data are within Switzerland areas.
 
 ## To run
 
