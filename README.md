@@ -1,27 +1,47 @@
-# Chivoora
+# Divoora Full-Stack FollowUp Assignment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+This is **Chivoora**, my submission for the assignment given to me at Divoora for the role of Full-Stack engineer. View the live version here: https://chivoora.web.app/
 
-## Development server
+## To run
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Clone with `git clone https://github.com/Chizaram-Igolo/chivoora.git`
+- `cd` into folder
+- Install all dependencies with `npm install`
+- Start application with `ng serve --open` or `ng serve` and navigate to `localhost:4200` in your browser.
 
-## Code scaffolding
+## Screenshots
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Chivoora Store List](./readme_imgs/store-list.png)
 
-## Build
+## List View
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Chivoora Store Details](./readme_imgs/store-details.png)
 
-## Running unit tests
+## Details View
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Product Specification
 
-## Running end-to-end tests
+A Web application that:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Geolocates the user.
+- Gets the stores list based on user location.
+- Allows user to click on store item to display more details about the store.
 
-## Further help
+### User Stories
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+As derived from the requirements given in the assignment.
+
+- As a user, I want my location to be discovered so that I can view the nearest stores to my location.
+- As a user, I want to click on a store in the list so that I can view more details about a store.
+
+## Skills I demonstrated
+
+- Filtering and retrieval of data relevant to geographical location (based on distance).
+- Proficiency with Angular
+- Static type-checking with TypeScript.
+
+## Stack
+
+- Angular (with TypeScript) <img src="./readme_imgs/angularjs-plain.svg" title="React" alt="Angular" width="24" height="24"/> <img src="./readme_imgs/typescript.png" title="TypeScript" alt="TypeScript" width="24" height="24"/>
+
+Thank you for your time and consideration.

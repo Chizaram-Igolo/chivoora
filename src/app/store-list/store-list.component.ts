@@ -26,7 +26,7 @@ export class StoreListComponent implements OnInit {
 
           let storeDistances = stores
             .map((store, idx) => [
-              this.getDistance(8.1, 46.8, store.lng, store.lat),
+              this.getDistance(pos.lng, pos.lat, store.lng, store.lat),
               idx,
             ])
             .filter((d) => d[0] <= 100);
