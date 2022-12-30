@@ -1,0 +1,21 @@
+<div class="content" role="main">
+
+    <div *ngIf="!isEmptyObject(store)" style="margin-top: 6rem">
+        <h2>{{store.name}}</h2>
+        <small>{{store.address}}</small><br />
+
+        <br />
+        <div *ngFor="let item of store.items">
+            <li style="margin-bottom: 5px">{{item.name}} - {{item.price}}</li>
+        </div>
+    </div>
+
+    <br />
+    <div class=" card-container">
+        <div>
+            <a [routerLink]="['/']" style="text-decoration: underline">
+                <span>Torna alla lista</span>
+            </a>
+        </div>
+    </div>
+</div>
